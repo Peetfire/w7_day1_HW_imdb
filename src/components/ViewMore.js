@@ -2,7 +2,10 @@ import React from "react";
 
 const ViewMore = () => {
     return(
-        <h4>I am View More</h4>
+        <>
+            <a href=" https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a>
+        </>
+        
     )
 }
 

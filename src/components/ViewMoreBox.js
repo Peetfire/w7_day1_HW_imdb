@@ -1,13 +1,12 @@
 import React from "react";
 import ViewMore from "./ViewMore";
 
-const ViewMoreBox = () => {
+const ViewMoreBox = ({viewMore}) => {
+
     return(
-        <>
-        <h3>I am View More Box</h3>
-        <ViewMore />
-        </>
-        
+        <div id="view-more-container">
+            <ViewMore/>
+        </div> 
     )
 }
 
