@@ -9,9 +9,9 @@ const FilmList = ({films}) => {
         )
     })
     return(
-        <>
+        <div id="film-list">
         {filmNodes} 
-        </>
+        </div>
     )
 
 }

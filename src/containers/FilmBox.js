@@ -35,11 +35,11 @@ const FilmBox = () => {
     )
 
     return(
-        <>
+        <div id="film-box">
         <h1>Upcoming Film Releases for UK</h1>
         <FilmList films={films}/>
         <ViewMoreBox />
-        </>
+        </div>
         
     )
 }
